@@ -36,6 +36,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        td1: td1 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "RCtrl/Super Key (Right GUI) Tap Dance";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_CONTROL>, <&kp RIGHT_GUI>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
