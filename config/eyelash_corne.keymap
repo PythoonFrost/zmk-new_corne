@@ -43,6 +43,14 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_CONTROL>, <&kp RIGHT_GUI>;
         };
+
+        &lt {
+            tapping-term-ms = <150>;
+        };
+
+        &mt {
+            tapping-term-ms = <150>;
+        }
     };
 
     rgb_encoder: rgb_encoder {
