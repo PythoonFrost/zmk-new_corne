@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - PLAY PAUSE
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-right-bold$$
   - H
   - J
