@@ -149,11 +149,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUNCT:
   - {type: held}
-  - '&soft_off'
-  - '&bl BL_TOG'
+  - '&studio_unlock'
+  - OUT USB
   - PLAY PAUSE
   - $$mdi:brightness-5$$
-  - VOLUME UP
+  - $$mdi:volume-high$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - '&mkp MB5'
@@ -161,12 +161,12 @@ layers:
   - '&mkp MB4'
   - $$mdi:pan-up$$
   - {t: RGB EFF, type: held alternate}
-  - '&studio_unlock'
+  - $$mdi:bluetooth-off$$
   - RGB TOG
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - MUTE
+  - OUT BLE
+  - $$mdi:volume-off$$
   - $$mdi:brightness-7$$
-  - VOLUME DOWN
+  - $$mdi:volume-low$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
