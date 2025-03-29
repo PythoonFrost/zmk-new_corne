@@ -86,9 +86,9 @@ layers:
   - KP 3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RIGHT GUI
   - HOME
   - END
+  - $$mdi:apple-keyboard-command$$
   - F9
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
