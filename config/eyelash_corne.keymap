@@ -88,10 +88,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp QUESTION     &kp AT         &kp HASH   &kp PIPE   &kp BACKSLASH                            &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &kp GRAVE         &kp KP_NUMLOCK  &trans
-&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp STAR   &kp EQUAL  &kp MINUS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp CAPSLOCK    &trans
-&trans  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp PLUS   &kp UNDER      &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GREATER_THAN  &kp INSERT      &trans
-                                        &trans     &trans     &trans                                                                    &trans                &trans                 &trans
+&trans  &kp QUESTION     &kp AT         &kp HASH   &kp PIPE   &kp BACKSLASH                            &mmv MOVE_UP                     &kp KP_NUMLOCK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &kp GRAVE         &trans
+&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp STAR   &kp EQUAL  &kp MINUS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CAPSLOCK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
+&trans  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp PLUS   &kp UNDER      &trans                    &mmv MOVE_DOWN                   &kp INSERT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GREATER_THAN  &trans
+                                        &trans     &trans     &trans                                                                    &trans          &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
