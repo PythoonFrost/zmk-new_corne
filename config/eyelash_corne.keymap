@@ -76,10 +76,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp F1  &kp F4  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9                            &mmv MOVE_UP                     &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN    &kp F7  &kp F10  &trans
-&trans  &kp F2  &kp F5  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT     &kp DOWN      &kp RIGHT_ARROW  &kp F8  &kp F11  &trans
-&trans  &kt F3  &kp F6  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans                    &mmv MOVE_DOWN                   &kp HOME     &kp END       &kp LEFT_GUI     &kp F9  &kp F12  &trans
-                        &kp KP_NUMBER_0  &trans           &trans                                                                      &trans       &trans        &trans
+&trans  &kp F1  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F4                            &mmv MOVE_UP                     &kp F7  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp F10  &trans
+&trans  &kp F2  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp F5            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F8  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11  &trans
+&trans  &kt F3  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F6  &trans                    &mmv MOVE_DOWN                   &kp F9  &kp END         &kp LEFT_GUI    &kp HOME         &kp F12  &trans
+                                 &kp KP_NUMBER_0  &trans           &trans                                                             &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
