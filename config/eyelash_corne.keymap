@@ -41,7 +41,7 @@
         };
 
         layer_pick_R {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <42 43 44>;
             require-prior-idle-ms = <400>;
         };
