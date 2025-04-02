@@ -137,8 +137,8 @@
         gaming_layer {
             display-name = "GAMING";
             bindings = <
-&trans          &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2                    &trans          &sk RCTRL       &sk RIGHT_ALT   &kp UP_ARROW    &sk RIGHT_SHIFT  &kp RS(TAB)      &kp C_BRIGHTNESS_INC
-&kp TAB         &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4            &trans  &trans  &trans  &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB          &kp C_BRIGHTNESS_DEC
+&kp ESCAPE      &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2                    &trans          &sk RCTRL       &sk RIGHT_ALT   &kp UP_ARROW    &sk RIGHT_SHIFT  &kp RS(TAB)      &kp BACKSPACE
+&kp TAB         &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4            &trans  &trans  &trans  &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB          &kp ENTER
 &kp LEFT_SHIFT  &trans  &trans  &trans  &kp N5        &kp NUMBER_6  &trans            &trans          &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT  &mkp MCLK
                                 &kp R   &kp SPACE     &kp F                                           &mkp LCLK       &mkp RCLK       &trans
             >;
