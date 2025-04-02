@@ -106,7 +106,7 @@ layers:
   - '|'
   - {t: \, s: '|'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - KP NUMLOCK
+  - {t: /, s: '?'}
   - '{'
   - '}'
   - '~'
@@ -214,8 +214,8 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: FUNCT, h: toggle}
   - {t: GAMING, h: toggle}
-  - {t: CLMKdh, h: toggle}
-  - {t: '7', h: toggle}
+  - {t: COLEMK, h: toggle}
+  - {t: dvorak, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,30 +294,30 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  CLMKdh:
+  COLEMK:
   - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - W
   - F
   - P
-  - B
+  - G
   - {t: '$$mdi:transfer$$', type: trans}
   - J
   - L
   - U
   - Y
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - A
   - R
   - S
   - T
-  - G
+  - D
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - M
+  - H
   - N
   - E
   - I
@@ -327,64 +327,64 @@ layers:
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - K
-  - H
+  - M
   - {t: ',', s: <}
   - .
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  dvorak:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '''', s: '"'}
+  - <
+  - '>'
+  - P
+  - Y
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - A
+  - O
+  - E
+  - U
+  - I
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
+  - Q
+  - J
+  - K
+  - X
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  '7':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - B
+  - M
+  - W
+  - V
+  - Z
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -395,9 +395,13 @@ layers:
 combos:
 - p: [44, 42, 0]
   k: {t: QWERTY, h: toggle}
-- p: [42, 43, 44, 45]
+- p: [42, 43, 44]
   k: {t: DVORAK, h: toggle}
-- p: [42, 43, 44, 5]
+- p: [42, 44, 5]
   k: {t: GAMING, h: toggle}
-- p: [42, 44, 43, 1]
+- p: [42, 44, 1]
   k: {t: FUNCT, h: toggle}
+- p: [42, 44, 4]
+  k: {t: COLEMK, h: toggle}
+- p: [42, 44, 3]
+  k: {t: dvorak, h: toggle}
