@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUNCT:
   - {type: held}
-  - '&studio_unlock'
+  - $$mdi:bluetooth-off$$
   - AC FORWARD
   - $$mdi:skip-next$$
   - PLAY PAUSE
@@ -162,7 +162,7 @@ layers:
   - RGB EFF
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - RGB TOG
   - REWIND
   - PREVIOUS
   - $$mdi:volume-off$$
