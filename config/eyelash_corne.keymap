@@ -34,9 +34,9 @@
     combos {
         compatible = "zmk,combos";
 
-        to_def_right {
+        to_def_R {
             bindings = <&to 0>;
-            key-positions = <44 42 0>;
+            key-positions = <44 42 33>;
             require-prior-idle-ms = <400>;
         };
 
@@ -52,11 +52,6 @@
             require-prior-idle-ms = <400>;
         };
 
-        system_tog {
-            bindings = <&tog 3>;
-            key-positions = <42 44 1>;
-        };
-
         colemak_tog {
             bindings = <&tog 6>;
             key-positions = <42 44 4>;
@@ -70,6 +65,11 @@
         layer_pick_L {
             bindings = <&to 4>;
             key-positions = <45 46 47>;
+        };
+
+        to_def_L {
+            bindings = <&to 0>;
+            key-positions = <45 36 47>;
         };
     };
 
