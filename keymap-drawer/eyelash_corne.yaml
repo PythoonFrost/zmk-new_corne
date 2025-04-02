@@ -196,7 +196,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  DVORAK:
+  SELECT:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: FUNCT, h: toggle}
   - {t: GAMING, h: toggle}
   - {t: COLEMK, h: toggle}
-  - {t: dvorak, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,7 +343,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  dvorak:
+  DVORAK:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - <
@@ -396,7 +396,7 @@ combos:
 - p: [44, 42, 0]
   k: {t: QWERTY, h: toggle}
 - p: [42, 43, 44]
-  k: {t: DVORAK, h: toggle}
+  k: {t: SELECT, h: toggle}
 - p: [42, 44, 5]
   k: {t: GAMING, h: toggle}
 - p: [42, 44, 1]
@@ -404,4 +404,4 @@ combos:
 - p: [42, 44, 4]
   k: {t: COLEMK, h: toggle}
 - p: [42, 44, 3]
-  k: {t: dvorak, h: toggle}
+  k: {t: DVORAK, h: toggle}
