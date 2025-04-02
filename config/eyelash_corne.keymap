@@ -40,7 +40,7 @@
             require-prior-idle-ms = <400>;
         };
 
-        layer_pick_tog {
+        layer_pick_R {
             bindings = <&tog 4>;
             key-positions = <42 43 44>;
             require-prior-idle-ms = <400>;
@@ -65,6 +65,11 @@
         dvorak_tog {
             bindings = <&tog 7>;
             key-positions = <42 44 3>;
+        };
+
+        layer_pick_L {
+            bindings = <&to 4>;
+            key-positions = <45 46 47>;
         };
     };
 
@@ -123,7 +128,7 @@
             display-name = "SELECT";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &to 0   &to 3   &to 5   &to 6   &to 7             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &to 0   &to 3   &to 5   &to 6   &to 7             &trans  &trans  &trans  &to 7   &to 6   &to 5   &to 3   &to 0   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
