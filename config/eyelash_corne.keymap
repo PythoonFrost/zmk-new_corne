@@ -42,19 +42,29 @@
 
         layer_pick_tog {
             bindings = <&tog 4>;
-            key-positions = <42 43 44 45>;
+            key-positions = <42 43 44>;
             require-prior-idle-ms = <400>;
         };
 
         gaming_tog {
             bindings = <&tog 5>;
-            key-positions = <42 43 44 5>;
+            key-positions = <42 44 5>;
             require-prior-idle-ms = <400>;
         };
 
         system_tog {
             bindings = <&tog 3>;
-            key-positions = <42 44 43 1>;
+            key-positions = <42 44 1>;
+        };
+
+        colemak_tog {
+            bindings = <&tog 6>;
+            key-positions = <42 44 4>;
+        };
+
+        dvorak_tog {
+            bindings = <&tog 7>;
+            key-positions = <42 44 3>;
         };
     };
 
@@ -88,10 +98,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp QUESTION     &kp AT         &kp HASH   &kp PIPE   &kp BACKSLASH                            &mmv MOVE_UP                     &kp KP_NUMLOCK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &kp GRAVE         &trans
-&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp STAR   &kp EQUAL  &kp MINUS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CAPSLOCK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
-&trans  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp PLUS   &kp UNDER      &trans                    &mmv MOVE_DOWN                   &kp INSERT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GREATER_THAN  &trans
-                                        &trans     &trans     &trans                                                                    &trans          &trans                &trans
+&trans  &kp QUESTION     &kp AT         &kp HASH   &kp PIPE   &kp BACKSLASH                            &mmv MOVE_UP                     &kp SLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &kp GRAVE         &trans
+&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp STAR   &kp EQUAL  &kp MINUS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CAPSLOCK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
+&trans  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp PLUS   &kp UNDER      &trans                    &mmv MOVE_DOWN                   &kp INSERT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GREATER_THAN  &trans
+                                        &trans     &trans     &trans                                                                    &trans        &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -131,24 +141,24 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        colemakdh_layer {
-            display-name = "CLMKdh";
+        colemak_layer {
+            display-name = "COLEMK";
             bindings = <
-&trans  &kp Q  &kp W  &kp F   &kp P   &kp B                     &trans          &kp J   &kp L   &kp U      &kp Y       &kp SLASH      &trans
-&trans  &kp A  &kp R  &kp S   &kp T   &kp G             &trans  &trans  &trans  &kp M   &kp N   &kp E      &kp I       &kp O          &trans
-&trans  &kp Z  &kp X  &kp C   &kp D   &kp V   &trans            &trans          &kp K   &kp H   &kp COMMA  &kp PERIOD  &kp SEMICOLON  &trans
+&trans  &kp Q  &kp W  &kp F   &kp P   &kp G                     &trans          &kp J   &kp L   &kp U      &kp Y       &kp SEMI   &trans
+&trans  &kp A  &kp R  &kp S   &kp T   &kp D             &trans  &trans  &trans  &kp H   &kp N   &kp E      &kp I       &kp O      &trans
+&trans  &kp Z  &kp X  &kp C   &kp V   &kp B   &trans            &trans          &kp K   &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &trans
                       &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        layer_7 {
+        dvorak_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp P   &kp Y                     &trans          &kp F   &kp G   &kp C   &kp R  &kp L  &trans
+&trans  &kp A             &kp O          &kp E             &kp U   &kp I             &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N  &kp S  &trans
+&trans  &kp SEMI          &kp Q          &kp J             &kp K   &kp X   &trans            &trans          &kp B   &kp M   &kp W   &kp V  &kp Z  &trans
+                                         &trans            &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
