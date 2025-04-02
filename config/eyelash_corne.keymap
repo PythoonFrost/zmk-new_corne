@@ -120,7 +120,7 @@
         };
 
         pick_layer {
-            display-name = "DVORAK";
+            display-name = "SELECT";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &to 0   &to 3   &to 5   &to 6   &to 7             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -154,6 +154,7 @@
         };
 
         dvorak_layer {
+            display-name = "DVORAK";
             bindings = <
 &trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp P   &kp Y                     &trans          &kp F   &kp G   &kp C   &kp R  &kp L  &trans
 &trans  &kp A             &kp O          &kp E             &kp U   &kp I             &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N  &kp S  &trans
