@@ -52,44 +52,44 @@ layers:
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - F4
   - KP 7
   - KP 8
   - KP 9
+  - F4
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - F7
   - PgUp
   - $$mdi:arrow-up-bold$$
   - PgDn
-  - F7
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F2
-  - F5
   - KP 4
   - KP 5
   - KP 6
+  - F5
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - F8
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - F8
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: F3, h: toggle}
-  - F6
   - KP 1
   - KP 2
   - KP 3
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
+  - F9
   - END
   - $$mdi:apple-keyboard-command$$
-  - F9
+  - HOME
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
