@@ -135,8 +135,8 @@
             display-name = "SELECT";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &to 0   &to 3   &to 5   &to 6   &to 7             &trans  &trans  &trans  &to 7   &to 6   &to 5   &to 3   &to 0   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &to 3   &to 2   &to 1   &to 5   &to 7             &trans  &trans  &trans  &to 7   &to 5   &to 1   &to 2   &to 3   &to 0
+&trans  &trans  &trans  &trans  &trans  &to 6   &trans            &trans          &to 6   &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
@@ -144,10 +144,10 @@
         gaming_layer {
             display-name = "GAMING";
             bindings = <
-&mt ESCAPE TAB  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2                    &trans          &sk RCTRL       &sk RIGHT_ALT   &kp UP_ARROW     &sk RIGHT_SHIFT  &kp RS(TAB)     &trans
-&kp LSHFT       &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4            &trans  &trans  &trans  &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &mmv MOVE_UP    &trans
-&kp LCTRL       &trans  &trans  &trans  &kp N5        &kp NUMBER_6  &trans            &trans          &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-                                &kp R   &kp SPACE     &kp F                                           &mkp LCLK       &mkp RCLK       &mkp MCLK
+&mt ESCAPE TAB  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2                    &trans          &sk RCTRL        &kp C_MUTE      &kp UP_ARROW    &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans
+&kp LSHFT       &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4            &trans  &trans  &trans  &sk RIGHT_ALT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &mmv MOVE_UP          &trans
+&kp LCTRL       &trans  &trans  &trans  &kp N5        &kp NUMBER_6  &trans            &trans          &sk RIGHT_SHIFT  &msc SCRL_UP    &msc SCRL_DOWN  &mmv MOVE_LEFT        &mmv MOVE_DOWN        &mmv MOVE_RIGHT
+                                &kp R   &kp SPACE     &kp F                                           &mkp MCLK        &mkp RCLK       &mkp LCLK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
