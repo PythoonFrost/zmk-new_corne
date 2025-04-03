@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUNCT:
   - {type: held}
-  - $$mdi:bluetooth-off$$
+  - RGB TOG
   - AC FORWARD
   - $$mdi:skip-next$$
   - PLAY PAUSE
@@ -162,7 +162,7 @@ layers:
   - RGB COLOR HSB(0,0,100)
   - {type: held alternate}
   - '&soft_off'
-  - RGB TOG
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - REWIND
   - PREVIOUS
   - $$mdi:volume-off$$
@@ -407,3 +407,7 @@ combos:
   k: {t: SELECT, h: toggle}
 - p: [45, 36, 47]
   k: {t: QWERTY, h: toggle}
+- p: [42, 0, 28, 13]
+  k: $$mdi:bluetooth-off$$
+- p: [47, 41, 27, 12]
+  k: $$mdi:bluetooth-off$$
