@@ -52,9 +52,9 @@ layers:
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - F4
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F7
@@ -65,9 +65,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F2
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - F5
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -80,9 +80,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: F3, h: toggle}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -92,7 +92,7 @@ layers:
   - HOME
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - '0'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
