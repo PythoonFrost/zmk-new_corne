@@ -87,9 +87,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F9
-  - END
-  - $$mdi:apple-keyboard-command$$
   - HOME
+  - $$mdi:apple-keyboard-command$$
+  - END
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
