@@ -100,7 +100,7 @@
             bindings = <
 &trans  &kp F1  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F4                            &mmv MOVE_UP                     &kp F7  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp F10  &trans
 &trans  &kp F2  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F5            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F8  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11  &trans
-&trans  &kt F3  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F6  &trans                    &mmv MOVE_DOWN                   &kp F9  &kp END         &kp LEFT_GUI    &kp HOME         &kp F12  &trans
+&trans  &kt F3  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F6  &trans                    &mmv MOVE_DOWN                   &kp F9  &kp HOME        &kp LEFT_GUI    &kp END          &kp F12  &trans
                               &kp NUMBER_0  &trans        &trans                                                             &trans  &trans          &trans
             >;
 
