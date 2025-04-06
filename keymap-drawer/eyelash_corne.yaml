@@ -100,17 +100,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
-  - '@'
-  - '#'
+  - Ins
+  - '~'
+  - {t: '`', s: '~'}
   - '|'
   - {t: \, s: '|'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: /, s: '?'}
   - '{'
   - '}'
-  - '~'
-  - {t: '`', s: '~'}
+  - '@'
+  - '#'
+  - $
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -121,25 +121,25 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-caps$$
   - (
   - )
   - '"'
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $
   - '%'
   - ^
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
+  - <
+  - '>'
   - +
   - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Ins
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - <
-  - '>'
+  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
+  - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
