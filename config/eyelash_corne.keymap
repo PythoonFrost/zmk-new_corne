@@ -111,10 +111,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp INSERT     &kp CAPSLOCK   &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &kp HASH           &kp DOLLAR        &trans
-&trans  &kp AMPERSAND  &kp ASTERISK   &kp EXCLAMATION   &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
-&trans  &kp GRAVE      &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET    &kp SLASH          &kp QUESTION      &trans
-                                      &trans            &trans     &trans                                                                     &trans                &trans                 &trans
+&trans  &kp INSERT    &kp CAPSLOCK   &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &kp HASH           &kp DOLLAR        &trans
+&trans  &kp ASTERISK  &kp AMPERSAND  &kp EXCLAMATION   &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
+&trans  &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET    &kp SLASH          &kp QUESTION      &trans
+                                     &trans            &trans     &trans                                                                     &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
