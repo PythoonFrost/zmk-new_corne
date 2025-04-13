@@ -66,7 +66,7 @@
 
         tab_chord {
             bindings = <&kp TAB>;
-            key-positions = <8 9>;
+            key-positions = <38 39>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
         };
@@ -80,21 +80,21 @@
 
         end_chord {
             bindings = <&kp END>;
-            key-positions = <24 25>;
+            key-positions = <24 23>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
         };
 
         home_chord {
             bindings = <&kp HOME>;
-            key-positions = <38 39>;
+            key-positions = <38 37>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
         };
 
         del_chord {
             bindings = <&kp DELETE>;
-            key-positions = <23 24>;
+            key-positions = <24 25>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
         };
