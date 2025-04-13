@@ -116,7 +116,7 @@
             layers = <0>;
         };
 
-        num_chord {
+        num_chord_L {
             bindings = <&sl 1>;
             key-positions = <4 3>;
             timeout-ms = <25>;
@@ -124,7 +124,7 @@
             layers = <0>;
         };
 
-        sym_chord {
+        sym_chord_L {
             bindings = <&sl 2>;
             key-positions = <3 2>;
             timeout-ms = <25>;
@@ -143,6 +143,22 @@
         Lalt_chord {
             bindings = <&kp LEFT_ALT>;
             key-positions = <29 30>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
+
+        num_chord_R {
+            bindings = <&sl 1>;
+            key-positions = <8 9>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
+
+        sym_chord_R {
+            bindings = <&sl 2>;
+            key-positions = <9 10>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
             layers = <0>;
