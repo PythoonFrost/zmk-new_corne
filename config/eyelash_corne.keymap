@@ -25,6 +25,8 @@
 &lt {
     tapping-term-ms = <135>;
     quick-tap-ms = <155>;
+    flavor = "hold-preferred";
+    require-prior-idle-ms = <200>;
 };
 
 / {
@@ -64,7 +66,7 @@
             key-positions = <42 0 28 13>;
         };
 
-        tab_chord {
+        tab_chord_L {
             bindings = <&kp TAB>;
             key-positions = <38 39>;
             timeout-ms = <25>;
@@ -117,6 +119,14 @@
             key-positions = <3 2>;
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
+
+        tab_chord_R {
+            bindings = <&kp TAB>;
+            key-positions = <30 31>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
         };
     };
 
@@ -156,10 +166,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&lt 3 ESCAPE        &kp Q  &kp W  &kp E      &kp R         &kp T                          &kp UP                &kp Y  &kp U        &kp I             &kp O    &kp SEMICOLON  &lt 3 BACKSPACE
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D      &kp F         &kp G                &kp LEFT  &mkp LCLK  &kp RIGHT  &kp H  &kp J        &kp K             &kp L    &kp P          &mt RIGHT_SHIFT ENTER
-&td                 &kp Z  &kp X  &kp C      &kp V         &kp B  &kp C_MUTE              &kp DOWN              &kp N  &kp M        &kp COMMA         &kp DOT  &kp FSLH       &kp RIGHT_ALT
-                                  &kp SPACE  &ltk 1 SPACE  &sl 2                                                &sl 1  &lt 2 SPACE  &mt RCTRL DELETE
+&lt 3 ESCAPE    &kp Q  &kp W  &kp E      &kp R        &kp T                          &kp UP                &kp Y  &kp U        &kp I             &kp O    &kp SEMICOLON  &lt 3 BACKSPACE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F        &kp G                &kp LEFT  &mkp LCLK  &kp RIGHT  &kp H  &kp J        &kp K             &kp L    &kp P          &mt RIGHT_SHIFT ENTER
+&td             &kp Z  &kp X  &kp C      &kp V        &kp B  &kp C_MUTE              &kp DOWN              &kp N  &kp M        &kp COMMA         &kp DOT  &kp FSLH       &kp RIGHT_ALT
+                              &kp SPACE  &lt 1 SPACE  &sl 2                                                &sl 1  &lt 2 SPACE  &mt RCTRL DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
