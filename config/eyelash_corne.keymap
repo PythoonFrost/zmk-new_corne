@@ -44,7 +44,7 @@
         };
 
         layer_pick_R {
-            bindings = <&to 4>;
+            bindings = <&to 5>;
             key-positions = <42 43 44>;
             require-prior-idle-ms = <400>;
         };
@@ -163,6 +163,16 @@
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
+
+        sys_chord_L {
+            bindings = <&sl 3>;
+            key-positions = <1 2>;
+        };
+
+        sys_chord_R {
+            bindings = <&sl 3>;
+            key-positions = <10 11>;
+        };
     };
 
     behaviors {
@@ -192,7 +202,7 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&lt 3 ESCAPE        &kp Q  &kp W  &kp E      &kp R        &kp T                          &kp UP                &kp Y  &kp U        &kp I             &kp O    &kp SEMICOLON  &lt 3 BACKSPACE
+&lt 4 ESCAPE        &kp Q  &kp W  &kp E      &kp R        &kp T                          &kp UP                &kp Y  &kp U        &kp I             &kp O    &kp SEMICOLON  &lt 4 BACKSPACE
 &mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D      &kp F        &kp G                &kp LEFT  &mkp LCLK  &kp RIGHT  &kp H  &kp J        &kp K             &kp L    &kp P          &mt RIGHT_SHIFT ENTER
 &kp LCTRL           &kp Z  &kp X  &kp C      &kp V        &kp B  &kp C_MUTE              &kp DOWN              &kp N  &kp M        &kp COMMA         &kp DOT  &kp FSLH       &kp RIGHT_ALT
                                   &kp SPACE  &lt 1 SPACE  &sl 2                                                &sl 1  &lt 2 SPACE  &mt RCTRL DELETE
@@ -216,7 +226,7 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp INSERT    &kp CAPSLOCK   &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &kp HASH           &kp DOLLAR        &trans
+&trans  &kp INSERT    &kp SEMICOLON  &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &kp HASH           &kp DOLLAR        &trans
 &trans  &kp ASTERISK  &kp AMPERSAND  &kp EXCLAMATION   &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans
 &trans  &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET    &kp SLASH          &kp QUESTION      &trans
                                      &trans            &trans     &trans                                                                     &trans                &trans                 &trans
@@ -229,7 +239,7 @@
             display-name = "FUNCT";
             bindings = <
 &trans          &rgb_ug RGB_TOG  &kp C_AC_FORWARD  &kp C_NEXT      &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_INC                            &mmv MOVE_UP                     &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG  &trans
-&soft_off       &bt BT_NXT       &kp C_REWIND      &kp C_PREVIOUS  &kp C_MUTE        &kp C_BRIGHTNESS_DEC            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &mmv MOVE_UP     &soft_off
+&soft_off       &kp CAPSLOCK     &kp C_REWIND      &kp C_PREVIOUS  &kp C_MUTE        &kp C_BRIGHTNESS_DEC            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &mmv MOVE_UP     &soft_off
 &studio_unlock  &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4          &trans                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFF  &mkp MB5         &mkp MB4         &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT
                                                    &mkp MCLK       &mkp RCLK         &mkp LCLK                                                                        &mkp MCLK        &mkp RCLK        &mkp LCLK
             >;
@@ -241,7 +251,7 @@
             display-name = "SELECT";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &to 3   &to 2   &to 1   &to 5   &to 7             &trans  &trans  &trans  &to 7   &to 5   &to 1   &to 2   &to 3   &to 0
+&to 0   &to 4   &to 2   &to 1   &to 5   &to 7             &trans  &trans  &trans  &to 7   &to 5   &to 1   &to 2   &to 4   &to 0
 &trans  &trans  &trans  &trans  &trans  &to 6   &trans            &trans          &to 6   &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
