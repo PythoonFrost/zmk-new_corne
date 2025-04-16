@@ -22,7 +22,7 @@
 
 &mt {
     tapping-term-ms = <110>;
-    flavor = "tap-preferred";
+    flavor = "tap-unless-interrupted";
 };
 
 &lt {
