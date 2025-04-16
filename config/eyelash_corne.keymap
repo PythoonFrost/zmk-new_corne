@@ -55,7 +55,7 @@
 
         clear_bt_R {
             bindings = <&bt BT_CLR>;
-            key-positions = <42 0 28 13>;
+            key-positions = <42 28 13 0>;
         };
 
         tab_chord_L {
@@ -153,13 +153,19 @@
         };
 
         sys_chord_L {
-            bindings = <&sl 3>;
+            bindings = <&mo 3>;
             key-positions = <1 2>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
         };
 
         sys_chord_R {
-            bindings = <&sl 3>;
+            bindings = <&mo 3>;
             key-positions = <10 11>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
         };
     };
 
