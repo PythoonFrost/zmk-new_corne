@@ -214,10 +214,10 @@
         gaming_layer {
             display-name = "GAMING";
             bindings = <
-&kp ESCAPE      &trans  &trans  &trans     &trans        &trans                                             &kp PAGE_UP                            &sk RCTRL      &sk RIGHT_SHIFT  &kp UP_ARROW    &msc SCRL_DOWN   &msc SCRL_UP    &mt C_MUTE BACKSPACE
-&kp LEFT_SHIFT  &trans  &trans  &trans     &trans        &trans                       &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &sk RIGHT_ALT  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_UP    &kp ENTER
-&kp LCTRL       &trans  &trans  &trans     &trans        &trans   &kp C_PLAY_PAUSE                          &kp PAGE_DOWN                          &sk TAB        &mkp MB5         &mkp MB4        &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-                                &kp SPACE  &kp LEFT_ALT  &kp TAB                                                                                   &mkp MCLK      &mkp RCLK        &mkp LCLK
+&kp ESCAPE      &trans  &trans  &trans        &trans     &trans                                             &kp PAGE_UP                            &sk RCTRL      &sk RIGHT_SHIFT  &kp UP_ARROW    &msc SCRL_DOWN   &msc SCRL_UP    &mt C_MUTE BACKSPACE
+&kp LEFT_SHIFT  &trans  &trans  &trans        &trans     &trans                       &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &sk RIGHT_ALT  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_UP    &kp ENTER
+&kp LCTRL       &trans  &trans  &trans        &trans     &trans   &kp C_PLAY_PAUSE                          &kp PAGE_DOWN                          &sk TAB        &mkp MB5         &mkp MB4        &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+                                &kp LEFT_ALT  &kp SPACE  &kp TAB                                                                                   &mkp MCLK      &mkp RCLK        &mkp LCLK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
