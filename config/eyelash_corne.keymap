@@ -41,14 +41,8 @@
             require-prior-idle-ms = <400>;
         };
 
-        layer_pick_R {
-            bindings = <&to 5>;
-            key-positions = <42 43 44>;
-            require-prior-idle-ms = <400>;
-        };
-
-        gaming_tog {
-            bindings = <&tog 5>;
+        to_gaming {
+            bindings = <&to 4>;
             key-positions = <32 44 33>;
             require-prior-idle-ms = <400>;
         };
@@ -61,7 +55,7 @@
         bkspc_chord {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 31>;
-            timeout-ms = <25>;
+            timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
@@ -69,7 +63,7 @@
         end_chord {
             bindings = <&kp END>;
             key-positions = <24 23>;
-            timeout-ms = <25>;
+            timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
@@ -77,7 +71,7 @@
         home_chord {
             bindings = <&kp HOME>;
             key-positions = <38 37>;
-            timeout-ms = <25>;
+            timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
@@ -85,7 +79,7 @@
         del_chord {
             bindings = <&kp DELETE>;
             key-positions = <38 39>;
-            timeout-ms = <25>;
+            timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
@@ -94,37 +88,39 @@
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
             layers = <0>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <200>;
         };
 
         num_chord_L {
             bindings = <&sl 1>;
             key-positions = <4 3>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <350>;
             layers = <0>;
         };
 
         sym_chord_L {
             bindings = <&sl 2>;
             key-positions = <3 2>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <350>;
             layers = <0>;
         };
 
         num_chord_R {
             bindings = <&sl 1>;
             key-positions = <8 9>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <350>;
             layers = <0>;
         };
 
         sym_chord_R {
             bindings = <&sl 2>;
             key-positions = <9 10>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <350>;
             layers = <0>;
         };
     };
@@ -199,16 +195,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        pick_layer {
-            display-name = "SELECT";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &to 3   &to 2   &to 1   &to 5   &trans            &trans  &trans  &trans  &trans  &to 5   &to 1   &to 2   &to 3   &to 0
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
         };
 
         gaming_layer {
