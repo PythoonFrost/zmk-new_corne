@@ -22,7 +22,7 @@
 
 &mt {
     tapping-term-ms = <110>;
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
 };
 
 &lt {
@@ -166,7 +166,7 @@
             bindings = <
 &trans  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp F1  &kp F4                            &mmv MOVE_UP                     &kp F7  &kp F10  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
 &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F2  &kp F5            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F8  &kp F11  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F3  &kp F6  &trans                    &mmv MOVE_DOWN                   &kp F9  &kp F12  &kp LEFT_GUI    &kp HOME        &kp END          &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F3  &kp F6  &trans                    &mmv MOVE_DOWN                   &kp F9  &kp F12  &kp LEFT_GUI    &kp INSERT      &kp CAPSLOCK     &trans
                                     &kp NUMBER_0  &trans  &trans                                                             &trans  &trans   &trans
             >;
 
@@ -176,10 +176,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp INSERT  &kp SEMICOLON  &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT        &kp CARET         &kp DOLLAR    &trans
-&trans  &kp EXCL    &kp AMPERSAND  &kp ASTERISK      &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp HASH          &kp SLASH     &trans
-&trans  &kp GRAVE   &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp QUESTION  &trans
-                                   &trans            &trans     &trans                                                                     &trans                &trans                 &trans
+&trans  &kp SEMI   &kp COLON      &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT        &kp CARET         &kp DOLLAR    &trans
+&trans  &kp EXCL   &kp AMPERSAND  &kp ASTERISK      &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp HASH          &kp SLASH     &trans
+&trans  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp QUESTION  &trans
+                                  &trans            &trans     &trans                                                                     &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
