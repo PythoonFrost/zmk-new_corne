@@ -20,10 +20,7 @@
 
 &mmv { trigger-period-ms = <16>; };
 
-&mt {
-    tapping-term-ms = <85>;
-    flavor = "balanced";
-};
+&mt { tapping-term-ms = <85>; };
 
 &lt {
     tapping-term-ms = <135>;
