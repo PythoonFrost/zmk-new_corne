@@ -173,10 +173,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SEMI   &kp COLON      &kp TILDE         &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT        &kp CARET         &kp DOLLAR    &trans
-&trans  &kp EXCL   &kp AMPERSAND  &kp ASTERISK      &kp EQUAL  &kp PLUS                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp HASH          &kp SLASH     &trans
-&trans  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp QUESTION  &trans
-                                  &trans            &trans     &trans                                                                     &trans                &trans                 &trans
+&trans  &kp SEMI      &kp COLON         &kp TILDE          &kp PIPE   &kp BACKSLASH                             &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT    &kp CARET         &kp DOLLAR    &trans
+&trans  &kp ASTERISK  &kp AMPERSAND     &kp EXCLAMATION    &kp EQUAL  &kp MINUS                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN    &kp HASH          &kp SLASH     &trans
+&trans  &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PLUS   &kp UNDERSCORE  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+                                        &trans             &trans     &trans                                                                     &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
