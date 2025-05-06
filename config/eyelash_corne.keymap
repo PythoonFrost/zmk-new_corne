@@ -51,7 +51,7 @@
 
         bkspc_chord {
             bindings = <&kp BACKSPACE>;
-            key-positions = <30 31>;
+            key-positions = <15 16>;
             timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
@@ -75,7 +75,7 @@
 
         del_chord {
             bindings = <&kp DELETE>;
-            key-positions = <38 39>;
+            key-positions = <24 25>;
             timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
