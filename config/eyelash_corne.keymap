@@ -67,7 +67,7 @@
 
         home_chord {
             bindings = <&kp HOME>;
-            key-positions = <38 37>;
+            key-positions = <22 23>;
             timeout-ms = <10>;
             require-prior-idle-ms = <200>;
             layers = <0>;
