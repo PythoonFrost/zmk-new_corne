@@ -125,7 +125,7 @@
                                   &kp LEFT_ALT  &lt 1 SPACE  &sl 2                                                &sl 1  &lt 2 SPACE  &mt RCTRL TAB
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         lower_layer {
@@ -137,7 +137,7 @@
                                     &kp NUMBER_0  &trans  &trans                                                             &trans  &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         raise_layer {
@@ -149,7 +149,7 @@
                                          &trans            &trans     &trans                                                                     &trans                &trans                 &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         system_layer {
@@ -161,7 +161,7 @@
                                                    &mkp MCLK       &mkp RCLK         &mkp LCLK                                                                        &mkp RCLK        &mkp LCLK        &mkp MCLK
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         gaming_layer {
@@ -173,7 +173,7 @@
                                 &kp LEFT_ALT  &kp SPACE  &kp TAB                                                                                   &mkp RCLK      &mkp LCLK       &mkp MCLK
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
