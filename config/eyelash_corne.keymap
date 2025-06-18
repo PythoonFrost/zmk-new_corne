@@ -110,7 +110,7 @@
 
         R_Layer_Sys {
             bindings = <&mo 3>;
-            key-positions = <47 41>;
+            key-positions = <41 45>;
             layers = <0>;
             require-prior-idle-ms = <100>;
             slow-release;
