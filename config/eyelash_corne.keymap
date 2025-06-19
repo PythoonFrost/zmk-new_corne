@@ -93,7 +93,6 @@
         L_Layer_1 {
             bindings = <&mo 1>;
             key-positions = <43 28>;
-            layers = <0>;
             require-prior-idle-ms = <100>;
             slow-release;
             timeout-ms = <40>;
@@ -102,7 +101,6 @@
         R_Layer_2 {
             bindings = <&mo 2>;
             key-positions = <46 41>;
-            layers = <0>;
             require-prior-idle-ms = <100>;
             slow-release;
             timeout-ms = <40>;
@@ -111,7 +109,6 @@
         R_Layer_Sys {
             bindings = <&mo 3>;
             key-positions = <47 41>;
-            layers = <0>;
             require-prior-idle-ms = <100>;
             slow-release;
             timeout-ms = <40>;
