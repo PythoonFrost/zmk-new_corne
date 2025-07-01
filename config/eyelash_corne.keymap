@@ -40,7 +40,7 @@
         };
 
         to_gaming {
-            bindings = <&to 4>;
+            bindings = <&to 0>;
             key-positions = <44 42 33>;
             require-prior-idle-ms = <300>;
         };
@@ -190,18 +190,6 @@
 &soft_off       &kp CAPSLOCK     &kp C_REWIND      &kp C_PREVIOUS  &kp C_MUTE        &kp C_BRIGHTNESS_DEC            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &mmv MOVE_UP     &kp C_VOLUME_DOWN
 &studio_unlock  &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4          &trans                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFF  &mkp MB5         &mkp MB4         &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT
                                                    &mkp MCLK       &mkp RCLK         &mkp LCLK                                                                        &mkp RCLK        &mkp LCLK        &mkp MCLK
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
-        };
-
-        gaming_layer {
-            display-name = "GAMING";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                &mmv MOVE_UP                     &sk NUMBER_7  &sk NUMBER_8  &kp NUMBER_9  &kp PAGE_UP    &kp DELETE      &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PAGE_DOWN  &kp UP_ARROW    &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW
-                        &trans  &trans  &kp ESCAPE                                                             &mkp LCLK     &mkp RCLK     &kp NUMBER_0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
