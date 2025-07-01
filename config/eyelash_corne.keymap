@@ -37,6 +37,7 @@
         clear_bt_R {
             bindings = <&bt BT_CLR>;
             key-positions = <42 28 13 0>;
+            layers = <0>;
         };
 
         bkspc_chord {
