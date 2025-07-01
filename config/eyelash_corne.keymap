@@ -34,17 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        to_def_R {
-            bindings = <&to 0>;
-            key-positions = <44 42 43>;
-        };
-
-        to_gaming {
-            bindings = <&to 0>;
-            key-positions = <44 42 33>;
-            require-prior-idle-ms = <300>;
-        };
-
         clear_bt_R {
             bindings = <&bt BT_CLR>;
             key-positions = <42 28 13 0>;
