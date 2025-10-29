@@ -36,7 +36,7 @@
 
         clear_bt_R {
             bindings = <&bt BT_CLR>;
-            key-positions = <42 28 13 0>;
+            key-positions = <42 28 0>;
             layers = <0>;
         };
 
@@ -80,20 +80,22 @@
             require-prior-idle-ms = <200>;
         };
 
-        L_Layer {
+        L_Layer_2 {
             bindings = <&sl 2>;
-            key-positions = <43 28>;
+            key-positions = <43 32>;
             require-prior-idle-ms = <100>;
             slow-release;
             timeout-ms = <40>;
+            layers = <0>;
         };
 
-        R_Layer {
+        L_Layer_1 {
             bindings = <&sl 1>;
-            key-positions = <46 41>;
+            key-positions = <43 33>;
             require-prior-idle-ms = <100>;
             slow-release;
             timeout-ms = <40>;
+            layers = <0>;
         };
 
         R_Layer_Sys {
