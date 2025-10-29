@@ -80,8 +80,8 @@
             require-prior-idle-ms = <200>;
         };
 
-        L_Layer_2 {
-            bindings = <&sl 2>;
+        L_Layer_1 {
+            bindings = <&sl 1>;
             key-positions = <43 32>;
             require-prior-idle-ms = <100>;
             slow-release;
@@ -89,8 +89,8 @@
             layers = <0>;
         };
 
-        L_Layer_1 {
-            bindings = <&sl 1>;
+        L_Layer_2 {
+            bindings = <&sl 2>;
             key-positions = <43 33>;
             require-prior-idle-ms = <100>;
             slow-release;
