@@ -140,8 +140,8 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T                          &kp UP                       &kp Y  &kp U      &kp I          &kp O    &kp P     &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F      &kp G                &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp H  &kp J      &kp K          &kp L    &kp SEMI  &mt RIGHT_SHIFT ENTER
+&kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T                          &kp UP                       &kp Y  &kp U      &kp I          &kp O    &kp SEMI  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F      &kp G                &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp H  &kp J      &kp K          &kp L    &kp P     &mt RIGHT_SHIFT ENTER
 &kp LCTRL       &kp Z  &kp X  &kp C         &kp V      &kp B  &kp C_MUTE              &kp DOWN                     &kp N  &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp RCTRL
                               &kp LEFT_ALT  &kp SPACE  &sl 1                                                       &sl 2  &kp SPACE  &kp RIGHT_ALT
             >;
@@ -165,8 +165,8 @@
             display-name = "SYMBOL";
             bindings = <
 &kp ESCAPE  &kp BACKSLASH  &kp PIPE           &kp SLASH         &kp PERCENT  &kp CARET                            &mmv MOVE_UP                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &kp GRAVE         &kp COLON     &trans
-&trans      &kp ASTERISK   &kp AMPERSAND      &kp EXCLAMATION   &kp EQUAL    &kp PLUS             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN    &kp TILDE         &kp SEMI      &trans
-&trans      &kp HASH       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp UNDER    &kp MINUS  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+&trans      &kp ASTERISK   &kp AMPERSAND      &kp EXCLAMATION   &kp PLUS     &kp EQUAL            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN    &kp TILDE         &kp SEMI      &trans
+&trans      &kp HASH       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp MINUS    &kp UNDER  &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
                                               &trans            &trans       &trans                                                                &trans                &trans                 &trans
             >;
 
