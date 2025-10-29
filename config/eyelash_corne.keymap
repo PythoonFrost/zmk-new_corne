@@ -118,6 +118,11 @@
             layers = <0>;
             require-prior-idle-ms = <100>;
         };
+
+        L_Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 44>;
+        };
     };
 
     behaviors {
