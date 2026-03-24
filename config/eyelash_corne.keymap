@@ -41,29 +41,27 @@
             bindings = <&bt BT_CLR>;
             key-positions = <42 28 0>;
             layers = <0>;
+            require-prior-idle-ms = <200>;
         };
 
         end_chord {
             bindings = <&kp END>;
             key-positions = <24 25>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
             layers = <0>;
         };
 
         home_chord {
             bindings = <&kp HOME>;
             key-positions = <9 10>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
             layers = <0>;
         };
 
         del_chord {
             bindings = <&kp DELETE>;
             key-positions = <23 24>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
             layers = <0>;
         };
 
@@ -71,16 +69,14 @@
             bindings = <&kp INSERT>;
             key-positions = <8 9>;
             layers = <0>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
         };
 
         L_Layer_2 {
             bindings = <&mo 1>;
             key-positions = <44 43>;
-            require-prior-idle-ms = <200>;
             slow-release;
-            timeout-ms = <15>;
+            timeout-ms = <25>;
             layers = <0>;
         };
 
@@ -89,7 +85,7 @@
             key-positions = <47 41>;
             require-prior-idle-ms = <200>;
             slow-release;
-            timeout-ms = <15>;
+            timeout-ms = <25>;
             layers = <0>;
         };
 
@@ -97,7 +93,7 @@
             bindings = <&mo 3>;
             key-positions = <42 28>;
             slow-release;
-            timeout-ms = <15>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
@@ -106,24 +102,23 @@
             bindings = <&kp PAGE_UP>;
             key-positions = <10 11>;
             layers = <0>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
         };
 
         L_PDwn {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <25 26>;
             layers = <0>;
-            timeout-ms = <15>;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <20>;
         };
 
         R_layer_1 {
             bindings = <&mo 2>;
             key-positions = <45 46>;
-            timeout-ms = <15>;
+            timeout-ms = <25>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <0>;
+            slow-release;
         };
     };
 
