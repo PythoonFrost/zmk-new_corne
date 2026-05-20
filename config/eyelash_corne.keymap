@@ -169,10 +169,10 @@
         symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE  &kp SLASH     &kp PIPE          &kp BACKSLASH      &kp PERCENT     &kp CARET                    &trans          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE      &kp COLON         &kp SEMI      &trans
-&trans      &kp ASTERISK  &kp AMPERSAND     &kp EXCLAMATION    &kp PLUS        &kp EQUAL            &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN    &kp HASH          &kp DOLLAR    &kp CAPSLOCK
-&trans      &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &kp MINUS  &trans            &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
-                                            &trans             &trans          &trans                                       &trans                &trans                 &trans
+&kp ESCAPE  &kp TILDE  &kp BACKSLASH     &kp STAR           &kp PLUS   &kp PERCENT                    &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE      &kp COLON         &kp PIPE       &trans
+&trans      &kp EXCL   &kp PIPE          &kp AMPS           &kp EQUAL  &kp POUND              &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN    &kp DOLLAR        &kp BACKSLASH  &kp CAPSLOCK
+&trans      &kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp MINUS  &kp UNDER    &trans            &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION   &trans
+                                         &trans             &trans     &trans                                         &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
