@@ -84,6 +84,7 @@
             slow-release;
             timeout-ms = <25>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         R_Layer_Sys {
@@ -125,7 +126,7 @@
             key-positions = <45 41>;
             timeout-ms = <25>;
             layers = <0>;
-            require-prior-idle-ms = <0>;
+            require-prior-idle-ms = <100>;
             slow-release;
         };
     };
