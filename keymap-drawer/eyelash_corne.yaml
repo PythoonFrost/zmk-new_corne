@@ -285,3 +285,9 @@ combos:
 - p: [44, 28]
   k: NUMBER
   l: [QWERTY]
+- p: [43, 44]
+  k: {t: HRM, h: toggle}
+  l: [QWERTY, HRM]
+- p: [45, 46]
+  k: {t: HRM, h: toggle}
+  l: [QWERTY, HRM]
