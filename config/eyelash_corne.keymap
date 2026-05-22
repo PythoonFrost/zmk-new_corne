@@ -143,6 +143,16 @@
             layers = <0>;
             require-prior-idle-ms = <153>;
         };
+
+        L_HRM {
+            bindings = <&tog 1>;
+            key-positions = <43 44>;
+        };
+
+        R_HRM {
+            bindings = <&tog 1>;
+            key-positions = <45 46>;
+        };
     };
 
     behaviors {
