@@ -147,11 +147,17 @@
         L_HRM {
             bindings = <&tog 1>;
             key-positions = <43 44>;
+            layers = <0 1>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
 
         R_HRM {
             bindings = <&tog 1>;
             key-positions = <45 46>;
+            layers = <0 1>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
     };
 
