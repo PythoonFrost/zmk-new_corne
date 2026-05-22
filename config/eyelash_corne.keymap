@@ -118,14 +118,14 @@
         R_H_Space {
             bindings = <&kp SPACE>;
             key-positions = <24 23>;
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             layers = <0>;
         };
 
         L_H_Space {
             bindings = <&kp SPACE>;
             key-positions = <17 16>;
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             layers = <0>;
         };
     };
