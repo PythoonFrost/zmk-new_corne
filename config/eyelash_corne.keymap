@@ -124,7 +124,7 @@
         };
 
         R_mo {
-            bindings = <&mo 2>;
+            bindings = <&mo 3>;
             key-positions = <41 45>;
             timeout-ms = <35>;
             slow-release;
@@ -133,7 +133,7 @@
         };
 
         L_mo {
-            bindings = <&mo 3>;
+            bindings = <&mo 2>;
             key-positions = <44 28>;
             timeout-ms = <35>;
             slow-release;
