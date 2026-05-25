@@ -4,11 +4,8 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
@@ -273,10 +270,10 @@
         system_layer {
             display-name = "FUNCT";
             bindings = <
-&kp ESCAPE  &rgb_ug RGB_TOG  &kp C_AC_FORWARD  &kp C_NEXT      &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC                        &out OUT_USB              &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG  &trans
-&trans      &kp C_MUTE       &kp C_REWIND      &kp C_PREVIOUS  &kp C_VOL_DN     &kp C_BRIGHTNESS_DEC            &bt BT_PRV  &bt BT_CLR    &bt BT_NXT  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &mmv MOVE_UP     &trans
-&trans      &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4          &trans                &out OUT_BLE              &rgb_ug RGB_EFF  &bl BL_TOG       &bl BL_CYCLE     &bl BL_DEC       &bl BL_INC       &trans
-                                               &trans          &trans           &trans                                                                &trans           &trans           &trans
+&kp ESCAPE  &none                 &none                 &none         &none            &none                           &trans          &none            &none            &none            &none            &none            &trans
+&trans      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_MUTE              &trans  &trans  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &trans
+&trans      &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4  &trans            &trans          &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
+                                                        &trans        &trans           &trans                                          &trans           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
