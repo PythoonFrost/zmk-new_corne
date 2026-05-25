@@ -118,7 +118,7 @@
 
         L_H_Space {
             bindings = <&kp SPACE>;
-            key-positions = <16 15>;
+            key-positions = <16 17>;
             timeout-ms = <35>;
             layers = <1>;
         };
