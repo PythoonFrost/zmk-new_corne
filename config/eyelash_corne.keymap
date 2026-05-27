@@ -229,7 +229,7 @@
             #binding-cells = <0>;
             bindings = <&sl 2>, <&sl 3>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <300>;
         };
 
         td_ns: td_ns {
@@ -238,7 +238,7 @@
             #binding-cells = <0>;
             bindings = <&sl 3>, <&sl 2>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <300>;
         };
 
         td_caps: td_caps {
@@ -247,7 +247,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <250>;
         };
     };
 
