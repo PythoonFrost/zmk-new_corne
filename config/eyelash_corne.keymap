@@ -47,7 +47,7 @@
             bindings = <&kp END>;
             key-positions = <38 39>;
             timeout-ms = <20>;
-            layers = <0 1>;
+            layers = <1>;
             require-prior-idle-ms = <200>;
         };
 
@@ -55,7 +55,7 @@
             bindings = <&kp HOME>;
             key-positions = <9 10>;
             timeout-ms = <20>;
-            layers = <0 1>;
+            layers = <1>;
             require-prior-idle-ms = <200>;
         };
 
@@ -63,14 +63,14 @@
             bindings = <&kp DELETE>;
             key-positions = <37 38>;
             timeout-ms = <20>;
-            layers = <0 1>;
+            layers = <1>;
             require-prior-idle-ms = <200>;
         };
 
         enter_chord {
             bindings = <&kp INSERT>;
             key-positions = <8 9>;
-            layers = <0 1>;
+            layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
         };
@@ -96,7 +96,7 @@
         L_PUp {
             bindings = <&kp PAGE_UP>;
             key-positions = <10 11>;
-            layers = <0 1>;
+            layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
         };
@@ -104,7 +104,7 @@
         L_PDwn {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <39 40>;
-            layers = <0 1>;
+            layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
         };
