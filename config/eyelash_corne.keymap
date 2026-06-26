@@ -281,7 +281,7 @@
         symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE    &kp TILDE  &kp BACKSLASH     &kp STAR           &kp PLUS   &kp AT                       &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HOME       &kp END           &kp COLON     &trans
+&kp ESCAPE    &kp TILDE  &kp BACKSLASH     &kp STAR           &kp PLUS   &kp AT                       &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP    &kp PAGE_DOWN     &kp COLON     &trans
 &kp CAPSLOCK  &kp EXCL   &kp PIPE          &kp AMPS           &kp EQUAL  &kp POUND            &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET      &kp PERCENT       &kp DOLLAR    &trans
 &trans        &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp MINUS  &kp UNDER  &trans            &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
                                            &trans             &trans     &trans                                       &trans                &trans                 &trans
@@ -293,10 +293,10 @@
         number_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp F1  &kp F4                    &trans          &kp F7  &kp INSERT      &kp PAGE_UP  &kp PAGE_DOWN  &kp DELETE    &trans
-&trans      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F2  &kp F5            &trans  &trans  &trans  &kp F8  &kp LEFT_ARROW  &kp DOWN     &kp UP_ARROW   &kp RIGHT     &trans
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F3  &kp F6  &trans            &trans          &kp F9  &kp F10         &kp F11      &kp F12        &kp LEFT_GUI  &trans
-                                        &kp N0        &trans  &trans                                    &trans  &trans          &trans
+&kp ESCAPE  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp F1  &kp F4                    &trans          &kp F7          &kp F8      &kp F9        &kp F10    &kp F11       &trans
+&trans      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F2  &kp F5            &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT  &kp F12       &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F3  &kp F6  &trans            &trans          &kp DELETE      &kp INSERT  &kp HOME      &kp END    &kp LEFT_GUI  &trans
+                                        &kp N0        &trans  &trans                                    &trans          &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
