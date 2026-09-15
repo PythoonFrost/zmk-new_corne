@@ -267,9 +267,9 @@
         symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE    &kp CARET         &kp BACKSLASH      &kp PIPE   &kp PLUS   &kp AT                         &trans          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE      &kp GRAVE         &kp COLON     &trans
-&kp CAPSLOCK  &kp EXCL          &kp AMPS           &kp STAR   &kp EQUAL  &kp POUND              &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp PERCENT       &kp DOLLAR    &trans
-&trans        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER  &kp MINUS  &kp PERCENT  &trans            &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+&kp ESCAPE    &kp CARET         &kp BACKSLASH      &kp PIPE   &kp PLUS   &kp AT                         &trans          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE      &kp GRAVE         &kp SEMI      &trans
+&kp CAPSLOCK  &kp EXCL          &kp AMPS           &kp STAR   &kp EQUAL  &kp POUND              &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &trans
+&trans        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER  &kp MINUS  &kp PERCENT  &trans            &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COMMA      &kp PERIOD        &kp QUESTION  &trans
                                                    &trans     &trans     &trans                                         &trans                &trans                 &trans
             >;
 
