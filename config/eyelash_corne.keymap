@@ -269,10 +269,10 @@
         hrm_layer {
             display-name = "HRM";
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &trans                          &kp UP                       &trans  &trans     &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans                &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &trans  &trans     &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans  &kp C_MUTE              &kp DOWN                     &trans  &trans     &trans    &trans  &trans  &trans
-                        &kp LEFT_ALT  &sl 2   &td_ns                                                       &td_sn  &kp SPACE  &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans                          &kp UP                       &trans  &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &trans  &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE              &kp DOWN                     &trans  &trans     &trans  &trans  &trans  &trans
+                        &trans  &sl 2   &sl 3                                                        &sl 2   &kp SPACE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
