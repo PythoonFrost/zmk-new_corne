@@ -45,7 +45,7 @@
 
         end_chord {
             bindings = <&kp END>;
-            key-positions = <38 39>;
+            key-positions = <38 37>;
             timeout-ms = <20>;
             layers = <1>;
             require-prior-idle-ms = <200>;
@@ -53,7 +53,7 @@
 
         home_chord {
             bindings = <&kp HOME>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
             timeout-ms = <20>;
             layers = <1>;
             require-prior-idle-ms = <200>;
@@ -61,7 +61,7 @@
 
         del_chord {
             bindings = <&kp DELETE>;
-            key-positions = <37 38>;
+            key-positions = <37 36>;
             timeout-ms = <20>;
             layers = <1>;
             require-prior-idle-ms = <200>;
@@ -69,7 +69,7 @@
 
         enter_chord {
             bindings = <&kp INSERT>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
             layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
@@ -95,7 +95,7 @@
 
         L_PUp {
             bindings = <&kp PAGE_UP>;
-            key-positions = <10 11>;
+            key-positions = <10 9>;
             layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
@@ -103,24 +103,10 @@
 
         L_PDwn {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <39 40>;
+            key-positions = <39 38>;
             layers = <1>;
             timeout-ms = <20>;
             require-prior-idle-ms = <200>;
-        };
-
-        R_H_Space {
-            bindings = <&kp SPACE>;
-            key-positions = <24 23>;
-            timeout-ms = <30>;
-            layers = <1>;
-        };
-
-        L_H_Space {
-            bindings = <&kp SPACE>;
-            key-positions = <16 17>;
-            timeout-ms = <30>;
-            layers = <1>;
         };
 
         R_mo {
